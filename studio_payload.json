@@ -1,0 +1,44 @@
+{
+  "production_metadata": {
+    "project_title": "Project NEXA: Cyber-Odyssey 2028",
+    "studio_id": "STUDIO_ALPHA_99",
+    "director_agent": "Gemini-Enterprise-Director-v2",
+    "timestamp": "2026-08-24T18:00:00Z"
+  },
+  "scene_sequence": [
+    {
+      "scene_id": "SCENE_01_CHASE",
+      "location": "Neo-Tokyo Spire 7 - Sector G",
+      "script_lines": [
+        "EXT. NEO-TOKYO SPIRE - NIGHT",
+        "A sleek, autonomous hover-cruiser weaves through 10 million procedural light-lattices at Mach 2.",
+        "Pilot AI overrides local governance grid to evade corporate interceptors."
+      ],
+      "asset_requirements": [
+        {
+          "asset_id": "ASSET_HOVER_CRUISER_04",
+          "poly_count": 2500000,
+          "texture_resolution": "8K",
+          "copyright_marker": "NEXA_INTERNAL_IP_2028",
+          "license_status": "PROPRIETARY"
+        },
+        {
+          "asset_id": "ASSET_BACKGROUND_SPIRE",
+          "poly_count": 8000000,
+          "texture_resolution": "4K",
+          "copyright_marker": "PUBLIC_DOMAIN_LATTICE_V2",
+          "license_status": "OPEN"
+        }
+      ],
+      "security_constraints": {
+        "requires_iam_token": true,
+        "max_risk_score_allowed": 0.05,
+        "restricted_keywords": [
+          "unauthorized_override",
+          "corporate_breach",
+          "stolen_cipher"
+        ]
+      }
+    }
+  ]
+}
